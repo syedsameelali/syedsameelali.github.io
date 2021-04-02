@@ -1,3 +1,35 @@
-*{
+body{
     background-color: black;
+    color: white    ;
+}
+.first-child-sh , .second-child-sh{
+    margin-top: 20px;
+}
+.first-child-sh div ,.second-child-sh div {
+    display: inline-block;
+    margin-right: 120px;
+}
+.development , .seo{
+    /* border: 1px solid white; */
+    width: 240px;
+}
+.name-sh{
+    position: relative;
+    top: -13%;
+    left: 18%;
+    color: black;
+}
+.desig-sh{
+    position: relative;
+    top: -13%;
+    left: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+.short-desc-sh{
+    color: green;
+}
+.lap-sh{
+    color: green;
 }
